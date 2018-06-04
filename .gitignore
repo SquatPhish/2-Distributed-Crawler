@@ -1,0 +1,19 @@
+
+# ignore node
+node_modules/**
+.idea/**
+
+
+# ignore test
+fb/**
+fbtest/**
+test/**
+appletest/**
+
+#ignore logs
+*.log
+
+#ignore all out files
+*.out
+
+get_domain_name.py
