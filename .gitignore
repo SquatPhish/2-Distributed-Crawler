@@ -1,6 +1,6 @@
-
-# ignore node
 node_modules/**
+
+#ignore IDE
 .idea/**
 
 
@@ -15,5 +15,3 @@ appletest/**
 
 #ignore all out files
 *.out
-
-get_domain_name.py
