@@ -45,6 +45,8 @@ node demo.js
 
 You will get a web version and a mobile version screenshot, their redirections and HTML source in test folder.
 
+The usage can be customized by following function calls in demo.js.
+
 
 ## Distributed Crawling :rocket: :rocket: :rocket:
 

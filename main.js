@@ -23,8 +23,6 @@ function read_candidates(filename)
           var arr = lines[i].split(",");
           var _id = arr[0];
           var url = arr[1];
-          //console.log(_id);
-          //console.log(url);
           nameList.push(_id);
           urlList.push(url);
    }
