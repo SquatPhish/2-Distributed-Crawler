@@ -64,6 +64,12 @@ How to detect squatting domains can be referred to [SquatPhish-1](https://github
 
 We use the data test/crawl_demo_url_list.txt as an example:
 
+* Clean chunks and create data folder:
+```
+rm -rf chunks/*
+mkdir data
+```
+
 * Split the list into chunks (0-10):
 ```
 python3 parse.py test/crawl_demo_url_list.txt 10
