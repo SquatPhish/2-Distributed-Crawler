@@ -16,7 +16,7 @@ console.log("Run multiple tests for facebook and apple");
 
 var urls = [ "https://www.apple.com/", "https://github.com/login" , "https://www.facebook.com/"];
 var names = ["apple","github-signin", "fb-signin"];
-var output = "./test/";
+var output_dir = "./test/";
 
-mobile.run_mobile_multiple_urls(urls, names, output);
-web.run_web_multiple_urls(urls, names, output);
+mobile.run_mobile_multiple_urls(urls, names, output_dir);
+web.run_web_multiple_urls(urls, names, output_dir);

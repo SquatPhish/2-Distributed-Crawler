@@ -46,7 +46,13 @@ node demo.js
 You will get a web version and a mobile version screenshot, their redirections and HTML source in test folder.
 
 
-## Distributed Crawling
+## Distributed Crawling :rocket: :rocket: :rocket:
+
+We provide a distributed crawling framework aim to crawl a large number of URLs.
+
+The idea borrows from Hadoop with MapReduce.
+
+<img src="https://github.com/SquatPhish/2-Distributed-Crawler/blob/master/test/framework.png" width="700" height="400" />
 
 
 ## Disclaimer and Reference
