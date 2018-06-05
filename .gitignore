@@ -7,7 +7,6 @@ node_modules/**
 # ignore test
 fb/**
 fbtest/**
-test/**
 appletest/**
 
 #ignore logs
