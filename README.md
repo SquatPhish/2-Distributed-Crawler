@@ -85,6 +85,12 @@ gcc task_dispatcher.c --std=c99
 ```
 ./a.out 0 10
 ```
+You could separate tasks among different servers, e.g.,
+```
+server 1 >> ./a.out 0 2
+server 2 >> ./a.out 3 4
+server 3 >> ./a.out 5
+```
 
 * Get results in a new data folder
 
