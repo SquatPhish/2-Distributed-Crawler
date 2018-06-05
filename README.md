@@ -61,6 +61,22 @@ task dispatch for each sublist with a chunk ID.
 The demo provides a step-by-step instruction to crawl FB squatting domains.
 How to detect squatting domains can be referred to [SquatPhish-1](https://github.com/SquatPhish/1-Squatting-Domain-Identification)
 
+We use the data test/crawl_demo_url_list.txt as an example:
+
+* Split the list into chunks (0-10):
+```
+python3 parse.py test/crawl_demo_url_list.txt 10
+```
+
+* Compile the task dispatch:
+```
+gcc task_dispatcher.c --std=c99
+```
+
+* Run jobs with an index range:
+```
+./a.out 0 10
+```
 
 
 ## Disclaimer and Reference

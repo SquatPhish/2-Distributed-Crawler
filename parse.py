@@ -27,6 +27,7 @@ def split_file_into_chunks(filename, num_of_chunks):
                 lines = list()
 
         if len(lines) > 0:
+            print ("Save chunk id {}".format(chunk_id))
             write_list_into_file(lines, "./chunks/" + str(chunk_id) + ".txt")
 
     print ("Done the parse and split")
