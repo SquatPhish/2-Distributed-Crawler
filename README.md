@@ -38,8 +38,8 @@ Run the demo:
 node demo.js
 ```
 <p float="left">
- <img src="https://github.com/SquatPhish/2-Distributed-Crawler/blob/master/test/fb-signin.screen.png" width="300" height="200" />
- <img src="https://github.com/SquatPhish/2-Distributed-Crawler/blob/master/test/fb-signin.screen.mobile.png" width="150" height="200" />
+ <img src="https://github.com/SquatPhish/2-Distributed-Crawler/blob/master/test/fb-signin.screen.png" width="500" height="250" />
+ <img src="https://github.com/SquatPhish/2-Distributed-Crawler/blob/master/test/fb-signin.screen.mobile.png" width="150" height="250" />
 </p>
 
 
