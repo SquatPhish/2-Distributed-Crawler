@@ -82,7 +82,7 @@ async function run_web_multiple_urls(urlList, nameList, globalDir){
 
 };
 
-async function run_single(myUrl, name){
+async function run_single(myUrl, name, globalDir){
 
     const browser = await puppeteer.launch({args: ['--no-sandbox']});
     //if you do not use this, error will happen on CentOS 7
@@ -94,6 +94,8 @@ async function run_single(myUrl, name){
         var arrayOfStrings = String(myUrl).split('/');
 
         var name = (typeof name !== 'undefined') ?  name : arrayOfStrings[arrayOfStrings.length-1];
+
+        name = globalDir + name;
 
         console.log("The store location is at " + name);
 

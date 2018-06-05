@@ -17,7 +17,7 @@ Welcome to SquatPhish-Crawler. It is part of SquatPhish project to crawler the s
 
 A distributed crawler to capture screenshots and log the redirection 
 
-- [x] web-version-based crawling
+- [x] web-based crawling
 - [x] mobile-based-crawling
 - [x] distributed-crawling using shared memory counter
 - [ ] add JS tracking
@@ -48,10 +48,10 @@ You will get a web version and a mobile version screenshot, their redirections a
 
 ## Distributed Crawling :rocket: :rocket: :rocket:
 
-We provide a distributed crawling framework aim to crawl a large number of URLs.
+We provide a distributed crawling framework to crawl a large number of URLs.
 
 The idea borrows from Hadoop with MapReduce. We separate the URL list into different chunks (stored under chunk folder), we then apply
-task dispatch for each sublist wirh a chunk ID.
+task dispatch for each sublist with a chunk ID.
 
 <img src="https://github.com/SquatPhish/2-Distributed-Crawler/blob/master/test/Framework.png" width="600" height="200" />
 
