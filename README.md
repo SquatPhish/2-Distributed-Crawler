@@ -56,6 +56,10 @@ task dispatch for each sublist wirh a chunk ID.
 <img src="https://github.com/SquatPhish/2-Distributed-Crawler/blob/master/test/Framework.png" width="600" height="200" />
 
 
+The demo provides a step-by-step instruction to crawl FB squatting domains.
+How to detect squatting domains can be referred to [SquatPhish-1](https://github.com/SquatPhish/1-Squatting-Domain-Identification)
+
+
 
 ## Disclaimer and Reference
 
