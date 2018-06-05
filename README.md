@@ -37,10 +37,10 @@ Run the demo:
 ```
 node demo.js
 ```
-
- <img src="https://github.com/SquatPhish/2-Distributed-Crawler/blob/master/test/fb-signin.screen.png" width="400" height="200" />
- <img src="https://github.com/SquatPhish/2-Distributed-Crawler/blob/master/test/fb-signin.screen.mobile.png" width="200" height="400" />
-
+<p float="left">
+ <img src="https://github.com/SquatPhish/2-Distributed-Crawler/blob/master/test/fb-signin.screen.png" width="200" height="100" />
+ <img src="https://github.com/SquatPhish/2-Distributed-Crawler/blob/master/test/fb-signin.screen.mobile.png" width="100" height="200" />
+</p>
 
 ## Disclaimer and Reference
 
