@@ -52,7 +52,7 @@ We provide a distributed crawling framework aim to crawl a large number of URLs.
 
 The idea borrows from Hadoop with MapReduce.
 
-<img src="https://github.com/SquatPhish/2-Distributed-Crawler/blob/master/test/framework.png" width="700" height="400" />
+<img src="https://github.com/SquatPhish/2-Distributed-Crawler/blob/master/test/Framework.png" width="600" height="300" />
 
 
 ## Disclaimer and Reference
