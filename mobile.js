@@ -13,6 +13,9 @@ const devices = require('puppeteer/DeviceDescriptors');
 const globalDir = './';
 
 
+//terminate the process in case some weird things happen
+process.on('unhandledRejection', up => { throw up });
+
 async function run_mobile_multiple_urls(urlList, nameList, globalDir){
 
   var page = null;
@@ -137,13 +140,3 @@ async function run_mobile_single(myUrl, name){
 };
 
 
-var url =  "https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&ru=https%3A%2F%2Fwww.ebay.com%2F"; //ebay signin
-url = "https://www.paypal.com/signin?country.x=US&locale.x=en_US"; //paypal signin
-url = "https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&rver=6.7.6643.0&wp=MBI_SSL&wreply=https%3a%2f%2fwww.microsoft.com%2fen-us%2f&lc=1033&id=74335&aadredir=1";
-url = "https://adobeid-na1.services.adobe.com/renga-idprovider/pages/login?callback=https%3A%2F%2Fims-na1.adobelogin.com%2Fims%2Fadobeid%2Fadobedotcom2%2FAdobeID%2Ftoken%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.adobe.com%252F%2523from_ims%253Dtrue%2526old_hash%253D%2526api%253Dauthorize&client_id=adobedotcom2&scope=creative_cloud%2CAdobeID%2Copenid%2Cgnav%2Cread_organizations%2Cadditional_info.projectedProductContext%2Csao.ACOM_CLOUD_STORAGE%2Csao.stock%2Csao.cce_private%2Cadditional_info.roles&denied_callback=https%3A%2F%2Fims-na1.adobelogin.com%2Fims%2Fdenied%2Fadobedotcom2%3Fredirect_uri%3Dhttps%253A%252F%252Fwww.adobe.com%252F%2523from_ims%253Dtrue%2526old_hash%253D%2526api%253Dauthorize%26response_type%3Dtoken&display=web_v2&relay=d54a1b5b-e86f-46f6-a036-3b5afa479a72&locale=en_US&flow_type=token&idp_flow_type=login";
-url = "https://www.facebook.com/";
-//run_mobile_single(url, '267');
-
-
-//TO install npm install puppeteer
-//TO install

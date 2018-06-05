@@ -2,8 +2,7 @@
 sudo apt-get update
 sudo apt-get install google-chrome-stable
 
-# for the centos, try yum
-
+# for the centos, try yum install
 
 ### get your chrome version
 apt list --installed | grep chrome
@@ -20,7 +19,7 @@ google-chrome --version
 npm -v
 #5.6.0
 
-nodejs -v
+node -v
 # v8.5.0
 
 echo "install puppeteer for Chrome headless"

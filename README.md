@@ -26,3 +26,30 @@ A distributed crawler to capture screenshots and log the redirection
 
 ## Set up
 
+```
+bash install.sh
+```
+
+## How to Use
+
+Run the demo:
+
+```
+node demo.js
+```
+
+
+## Disclaimer and Reference
+
+This is a research prototype, use at your own risk.
+
+If you feel this tool is useful, cite the tool as :dog2: SquatPhish :dog2: is highly appreiciated.
+
+
+## Acknowledgement
+
+Core contributor: ke tian @ririhedou
+
+Thanks hang hu @0xorz for reproduction testing.
+
+Current version is 0.0.2, updated at June 04 2018
