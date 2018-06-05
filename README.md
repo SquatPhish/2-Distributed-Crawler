@@ -57,6 +57,7 @@ task dispatch for each sublist with a chunk ID.
 
 <img src="https://github.com/SquatPhish/2-Distributed-Crawler/blob/master/test/Framework.png" width="600" height="200" />
 
+### Instructions
 
 The demo provides a step-by-step instruction to crawl FB squatting domains.
 How to detect squatting domains can be referred to [SquatPhish-1](https://github.com/SquatPhish/1-Squatting-Domain-Identification)
@@ -77,7 +78,13 @@ gcc task_dispatcher.c --std=c99
 ```
 ./a.out 0 10
 ```
+* Get results in a new data folder
 
+### Demo
+
+```
+bash run_distribute.sh test/crawl_demo_url_list.txt 10
+```
 
 ## Disclaimer and Reference
 
