@@ -50,9 +50,11 @@ You will get a web version and a mobile version screenshot, their redirections a
 
 We provide a distributed crawling framework aim to crawl a large number of URLs.
 
-The idea borrows from Hadoop with MapReduce.
+The idea borrows from Hadoop with MapReduce. We separate the URL list into different chunks (stored under chunk folder), we then apply
+task dispatch for each sublist wirh a chunk ID.
 
-<img src="https://github.com/SquatPhish/2-Distributed-Crawler/blob/master/test/Framework.png" width="600" height="300" />
+<img src="https://github.com/SquatPhish/2-Distributed-Crawler/blob/master/test/Framework.png" width="600" height="200" />
+
 
 
 ## Disclaimer and Reference
