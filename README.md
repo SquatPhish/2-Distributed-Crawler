@@ -69,8 +69,9 @@ We use the data test/crawl_demo_url_list.txt as an example:
 python3 parse.py test/crawl_demo_url_list.txt 10
 ```
 
-* Compile the task dispatch:
+* Compile the task dispatch:  You could define your PROC_MAX in task_dispatcher.c
 ```
+## define PROC_MAX 5  //The maximum processes the machine can tolerate
 gcc task_dispatcher.c --std=c99
 ```
 
@@ -78,6 +79,7 @@ gcc task_dispatcher.c --std=c99
 ```
 ./a.out 0 10
 ```
+
 * Get results in a new data folder
 
 ### Demo
