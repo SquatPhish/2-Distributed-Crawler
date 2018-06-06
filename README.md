@@ -70,15 +70,12 @@ rm -rf chunks/*
 mkdir data
 ```
 
-2. Split the list into chunks:
+2. Split the list into chunks: The first argument is the file. The second argument is the number of chunks.
 
 ```
 python3 parse.py test/crawl_demo_url_list.txt 10
 ```
 
-first argument is the file.
-
-second argument is the number of chunks.
 
 3. Compile the task dispatch:  You could define your PROC_MAX in task_dispatcher.c
 
