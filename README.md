@@ -64,24 +64,26 @@ How to detect squatting domains can be referred to [SquatPhish-1](https://github
 
 We use the data test/crawl_demo_url_list.txt as an example:
 
-* Clean chunks and create data folder:
+1. Clean chunks and create data folder:
 ```
 rm -rf chunks/*
 mkdir data
 ```
 
-* Split the list into chunks (0-10):
+2. Split the list into chunks:
 ```
 python3 parse.py test/crawl_demo_url_list.txt 10
 ```
+    - first argument is the file
+    - second argument is the number of chunks
 
-* Compile the task dispatch:  You could define your PROC_MAX in task_dispatcher.c
+3. Compile the task dispatch:  You could define your PROC_MAX in task_dispatcher.c
 ```
 ## define PROC_MAX 5  //The maximum processes the machine can tolerate
 gcc task_dispatcher.c --std=c99
 ```
 
-* Run jobs with an index range:
+4. Run jobs with an index range:
 ```
 ./a.out 0 10
 ```
@@ -89,10 +91,10 @@ You could separate tasks among different servers, e.g.,
 ```
 server 1 >> ./a.out 0 2
 server 2 >> ./a.out 3 4
-server 3 >> ./a.out 5
+server 3 >> ./a.out 5 10
 ```
 
-* Get results in a new data folder
+5. Get results in a new data folder
 
 ### Demo
 
