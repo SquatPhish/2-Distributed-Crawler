@@ -71,13 +71,17 @@ mkdir data
 ```
 
 2. Split the list into chunks:
+
 ```
 python3 parse.py test/crawl_demo_url_list.txt 10
 ```
-    - first argument is the file
-    - second argument is the number of chunks
+
+first argument is the file.
+
+second argument is the number of chunks.
 
 3. Compile the task dispatch:  You could define your PROC_MAX in task_dispatcher.c
+
 ```
 ## define PROC_MAX 5  //The maximum processes the machine can tolerate
 gcc task_dispatcher.c --std=c99
